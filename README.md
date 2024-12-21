@@ -13,7 +13,7 @@ A simple Discord bot that provides real-time Minecraft server status for UtopiaS
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/PerOdin/UtopiaSMPStatus.git
+   git clone https://github.com/Osman26th22/UtopiaSMPStatus.git
    ```
 
 2. **Install dependencies**:
