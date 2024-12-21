@@ -31,7 +31,7 @@ A simple Discord bot that provides real-time Minecraft server status for UtopiaS
 
 4. **Start the bot**:
    ```bash
-   npm start
+   npm bot.js
    ```
 
 ## Contributing
