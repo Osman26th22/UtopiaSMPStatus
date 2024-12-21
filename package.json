@@ -1,0 +1,30 @@
+{
+	"name": "utopiamc-discordbot",
+	"version": "2024.06.07",
+	"description": "A simple Discord.js bot that checks the status of UtopiaMC server",
+	"engines": {
+		"node": "20.x"
+	},
+	"scripts": {
+		"start": "node bot.js",
+		"format": "prettier --write ."
+		},
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"discord.js": "^14.16.3",
+		"dotenv": "^16.4.7",
+		"minecraft-server-util": "^5.4.4",
+		"node-mcstatus": "^1.2.0",
+		"unidecode": "^1.0.1",
+		"validator": "^13.9.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^3.0.3"
+	}
+}
