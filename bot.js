@@ -47,7 +47,7 @@ client.on('interactionCreate', async interaction => {
     if (commandName === 'status') {
         try {
             const serverStatus = await status(SERVER_IP, SERVER_PORT);
-            const motd = serverStatus.motd;
+            const motd = serverStatus.motd.clean;
             const onlinePlayers = serverStatus.players.online;
             const maxPlayers = serverStatus.players.max;
 
